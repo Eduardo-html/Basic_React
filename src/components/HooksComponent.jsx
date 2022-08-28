@@ -7,14 +7,14 @@ const Hooks = () => {
 
     const changeNewAge = () => {
         return (
-            setNovaIdade(29)
+            setNovaIdade(novaIdade + 1)
         );
     }
 
     return (
         <div>
-            <p>Sua idade anterior: {idade}</p>
-            <p>Sua idade atual: {novaIdade}</p>
+            <p>Sua idade anterior com váriavel: {idade}</p>
+            <p>Sua idade atual com useState: {novaIdade}</p>
             <button onClick={changeNewAge}>Click para add +1 em idade</button>
         </div>
     );
