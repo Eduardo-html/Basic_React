@@ -11,7 +11,6 @@ import MeuNome from "./components/MeuNome";
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to React </h1>
       <FirstComponent />
       <AnotherComponent />
       <Hooks />

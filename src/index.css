@@ -6,6 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-bottom: 500px;
+background-image: linear-gradient(to right, #DECBA4, #3E5151);
+
 }
 
 code {
@@ -17,3 +19,4 @@ img{
   width: 300px;
   height: 200px;
 }
+
