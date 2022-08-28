@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import FirstComponent from "./components/FirstComponent";
+import AnotherComponent from "./components/AnotherComponent";
+import Hooks from "./components/HooksComponent";
+import List from "./components/ListComponent";
+import RenderCond from "./components/RenderCondComponent";
+import Fragment from "./components/FragmentComponent";
+import Container from "./components/ContainerComponet";
+import MeuNome from "./components/MeuNome";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Welcome to React </h1>
+      <FirstComponent />
+      <AnotherComponent />
+      <Hooks />
+      <List/>
+      <RenderCond x={17} y={28} z={18}/>
+      <Fragment/>
+      <Container>
+        <h1>Este é filho do container</h1>
+      </Container>
+      <MeuNome x={"Props"}/>
     </div>
   );
 }
