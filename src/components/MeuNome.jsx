@@ -8,13 +8,11 @@ const MeuNome = (props) =>{
             <br/>
             Seu nome é {props.x}
         </h1>
-
         <br/>
         <br/>
-        <h1>
-          <p><strong><u>GITHUB</u></strong></p>
-          <a>https://github.com/Eduardo-html/Basic_React</a>
-        </h1>
+          <a to="https://github.com/Eduardo-html/Basic_React">
+           GITHUB
+          </a>
       </>
     );
 }
