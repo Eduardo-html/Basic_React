@@ -6,7 +6,7 @@ const AnotherComponent = () => {
     <div>
       <hr/>
       <h2>Evento onClick</h2>
-      <p>abra o console do navegador</p>
+      <p><u>abra o console do navegador</u></p>
       <button onClick={handleClick}>Evento de click</button>
       <br/>
       <button onClick={() => console.log("Clickou dentro do Elemento")}>Evento no Elemento</button>
