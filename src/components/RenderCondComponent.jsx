@@ -7,7 +7,6 @@ const RenderCond = ({ x, y, z }) => {
             </h2>
             <p>Valor de x é igual à {x}</p>
             { x < z && "Chame o seu responsável."}
-            <br/>
             { x < z ? "Você é menor de idade!" : "Você é maior de idade!"}
             <br/>
             <p>Valor de y é igual à {y}</p>
